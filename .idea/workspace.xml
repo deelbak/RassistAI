@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d20a7695-e52f-4954-a163-2ca9cb41eceb" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+    <list default="true" id="d20a7695-e52f-4954-a163-2ca9cb41eceb" name="Changes" comment="Server fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/.package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/@jridgewell/trace-mapping/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/@jridgewell/trace-mapping/README.md" afterDir="false" />
@@ -113,6 +113,7 @@
       <change beforePath="$PROJECT_DIR$/server/node_modules/typescript/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/typescript/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/aiService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/aiService.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/routes/assistant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/assistant.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/tsconfig.json" afterDir="false" />
@@ -192,7 +193,7 @@
       <updated>1743637033117</updated>
       <workItem from="1743637034233" duration="5721000" />
       <workItem from="1743955153906" duration="43000" />
-      <workItem from="1744344846210" duration="3517000" />
+      <workItem from="1744344846210" duration="4212000" />
     </task>
     <task id="LOCAL-00001" summary="WebStorm Changes">
       <option name="closed" value="true" />
@@ -234,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744345002648</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Server fixes">
+      <option name="closed" value="true" />
+      <created>1744349652761</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744349652761</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +263,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="WebStorm Changes" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="Server fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server fixes" />
   </component>
 </project>
