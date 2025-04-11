@@ -1,6 +1,6 @@
 import { Router, Request, Response } from 'express';
-import { getAIResponse } from '../aiService';
 
+import { getAIResponse } from '../aiService';
 const router = Router();
 
 router.post('/', async (req: Request, res: Response) => {

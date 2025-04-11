@@ -1,9 +1,10 @@
 import express, { Request, Response, NextFunction } from 'express';
 import cors from 'cors';
 import bodyParser from 'body-parser';
+import assistantRouter from './routes/assistant';
 import dotenv from 'dotenv';
-import assistantRouter from './routes/assistant.js';
 dotenv.config();
+
 
 const app = express();
 const PORT = process.env.PORT || 5000;
